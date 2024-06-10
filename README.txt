@@ -39,19 +39,6 @@ FABDEM Tile Finder is a QGIS plugin designed to help users locate and manage FAB
 
 Contributions are welcome! Please fork this repository and submit pull requests for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
-Special thanks to the QGIS and FABDEM communities for their continuous support and contributions.
-
-## Contact
-
-For any issues or feature requests, please create an issue in this repository or contact [Your Name](mailto:your-email@example.com).
-
----
-
-![QGIS](https://img.shields.io/badge/QGIS-3.x-green)
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+Special thanks those behind FABDEM (https://research-information.bris.ac.uk/en/datasets/fabdem-v1-2)
