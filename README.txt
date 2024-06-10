@@ -1,32 +1,57 @@
-Plugin Builder Results
+# FABDEM Tile Finder Plugin
 
-Your plugin _fabdem was created in:
-    C:/Users/cmilner/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins\fabdem
+## Overview
 
-Your QGIS plugin directory is located at:
-    C:/Users/cmilner/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
+FABDEM Tile Finder is a QGIS plugin designed to help users locate and manage FABDEM tiles that intersect with a specified geographic extent. This plugin simplifies the process of identifying and working with relevant DEM tiles within a given region.
 
-What's Next:
+## Features
 
-  * Copy the entire directory containing your new plugin to the QGIS plugin
-    directory
+- **Select FABDEM Tile Folder:** Choose a directory containing FABDEM tiles.
+- **Select Geographic Extent:** Use a polygon layer to define the area of interest.
+- **Find Intersecting Tiles:** Identify FABDEM tiles that intersect with the specified extent.
+- **Progress Tracking:** Monitor the progress of tile search operations with a progress bar.
+- **Add Intersecting Tiles to QGIS:** Automatically add intersecting tiles to the QGIS project for further analysis.
 
-  * Compile the resources file using pyrcc5
+## Installation
 
-  * Run the tests (``make test``)
+1. Download or clone this repository.
+2. Open QGIS and navigate to `Plugins` > `Manage and Install Plugins...`
+3. Click on the `Install from ZIP` button.
+4. Select the downloaded ZIP file and click `Install Plugin`.
 
-  * Test the plugin by enabling it in the QGIS plugin manager
+## Usage
 
-  * Customize it by editing the implementation file: ``fabdem.py``
+1. Activate the plugin from the QGIS plugin manager.
+2. Click on the `FABDEM Tile Finder` icon in the toolbar.
+3. In the dialog:
+   - Select the folder containing your FABDEM tiles.
+   - Choose a polygon layer to define the area of interest.
+   - Click `OK` to start the process.
+4. The plugin will display the progress and add the intersecting tiles to the QGIS project.
 
-  * Create your own custom icon, replacing the default icon.png
+## Requirements
 
-  * Modify your user interface by opening _fabdem_dialog_base.ui in Qt Designer
+- QGIS 3.x
+- Python 3.x
+- Dependencies: `rasterio`, `geopandas`, `shapely`, `rioxarray`, `fiona`
 
-  * You can use the Makefile to compile your Ui and resource files when
-    you make changes. This requires GNU make (gmake)
+## Contributing
 
-For more information, see the PyQGIS Developer Cookbook at:
-http://www.qgis.org/pyqgis-cookbook/index.html
+Contributions are welcome! Please fork this repository and submit pull requests for any improvements or bug fixes.
 
-(C) 2011-2018 GeoApt LLC - geoapt.com
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+Special thanks to the QGIS and FABDEM communities for their continuous support and contributions.
+
+## Contact
+
+For any issues or feature requests, please create an issue in this repository or contact [Your Name](mailto:your-email@example.com).
+
+---
+
+![QGIS](https://img.shields.io/badge/QGIS-3.x-green)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
